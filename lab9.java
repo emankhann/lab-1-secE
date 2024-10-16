@@ -22,11 +22,8 @@ public static void main(String[] args) {
         promotedStudent.setSubjectCode("SE-210T");
         promotedStudent.setSubjectName("Discrete Mathematics");
 
+
         System.out.println("\nUpdated Promoted Student Details:");
         System.out.println("Roll Number: " + promotedStudent.getRollNumber());
         System.out.println("Subject Code: " + promotedStudent.getSubjectCode());
         System.out.println("Subject Name: " + promotedStudent.getSubjectName());
-    }
-		
-
-	}
