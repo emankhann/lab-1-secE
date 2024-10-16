@@ -21,14 +21,9 @@ public static void main(String[] args) {
         // Updating promoted student details
         promotedStudent.setSubjectCode("SE-210T");
         promotedStudent.setSubjectName("Discrete Mathematics");
-        promotedStudent.setSubjectName("Data Structures & Algorithms");
+
 
         System.out.println("\nUpdated Promoted Student Details:");
         System.out.println("Roll Number: " + promotedStudent.getRollNumber());
         System.out.println("Subject Code: " + promotedStudent.getSubjectCode());
         System.out.println("Subject Name: " + promotedStudent.getSubjectName());
-        
-    }
-		
-
-	}
